@@ -10,6 +10,7 @@ body {
 }
 
 main {
+  position: relative;
   height: 300px;
   width: 500px;
   box-shadow: 0ch;
@@ -38,9 +39,12 @@ p {
 }
 
 .dice {
+  right: 0%;
+  left: 0%;
+  margin: auto;
   position: absolute;
-  bottom: 25%;
-  right: 48%;
+  bottom: -25px;
+  /* right: 10%; */
   /* margin: 30px 229px; */
   padding: 12px;
   border-radius: 50%;
@@ -62,7 +66,7 @@ p {
     width: 300px;
   }
   .dice {
-    bottom: 22%;
-    right: 43%;
+    bottom: -25px;
+    right: 0;
   }
 }
